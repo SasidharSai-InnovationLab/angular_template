@@ -1,8 +1,69 @@
-<p>test</p>
-<<div class="p-grid">
-    <div class="p-col-12 p-md-6 p-lg-3">A</div>
-    <div class="p-col-12 p-md-6 p-lg-3">B</div>
-    <div class="p-col-12 p-md-6 p-lg-3">C</div>
-    <div class="p-col-12 p-md-6 p-lg-3">D</div>
+<p-card header="Title">
+    <p class="m-0">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+        quas!
+    </p>
+  
+</p-card>
+<p-panel header="Requirements " [toggleable]="true">
+    <div class="grid">
+        <div class="col">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold">1</div>
+        </div>
+        <div class="col">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold ">2</div>
+        </div>
+        <div class="col">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold ">3</div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="col-6">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+        </div>
+        <div class="col-6">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+        </div>
+        <div class="col-6">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+        </div>
+        <div class="col-6">
+            <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+        </div>
+    </div>
+
+    <div class="grid">
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="text-center p-3 border-round-sm bg-primary font-bold">col-12 md:col-6 lg:col-3</div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="text-center p-3 border-round-sm bg-primary font-bold">col-12 md:col-6 lg:col-3</div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="text-center p-3 border-round-sm bg-primary font-bold">col-12 md:col-6 lg:col-3</div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="text-center p-3 border-round-sm bg-primary font-bold">col-12 md:col-6 lg:col-3</div>
+    </div>
 </div>
+
+<div class="grid nested-grid">
+    <div class="col-8">
+        <div class="grid">
+            <div class="col-6">
+                <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+            </div>
+            <div class="col-6">
+                <div class="text-center p-3 border-round-sm bg-primary font-bold">6</div>
+            </div>
+            <div class="col-12">
+                <div class="text-center p-3 border-round-sm bg-primary font-bold">12</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="text-center p-3 border-round-sm h-full bg-primary font-bold">4</div>
+    </div>
+</div>
+</p-panel>
 <router-outlet></router-outlet>
